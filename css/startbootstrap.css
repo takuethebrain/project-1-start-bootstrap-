@@ -26,11 +26,10 @@ h2{padding:30px 150px;
 
 
 .hero{background-color: #1abc9c;
-      height: 89vh;
+      height: 100vh;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       color: white;
       text-align: center;
-      padding: 70px;
      }
 
 
@@ -72,7 +71,11 @@ h1{font-size: 50px;
                         margin-bottom: 10px;
                         ; }
                   }
-            } 
+} 
+
+hr{margin-bottom: 30px;
+   opacity: 0%;
+}
 /* portfolio end */
 
 /* about start */
@@ -93,60 +96,92 @@ h1{font-size: 50px;
               max-width: 650px;
 
             p{text-align: left;}}
-              .buns{button{height: 40px; color: white; border: solid 1px; width: 150px;  padding-left: 10px; padding-right: 10px;margin-top: 20px;border-radius: 5px;}
-                   button:hover{color: #1a252f;}
-                  }
              
 h2 {padding-bottom: 10px;}     
       }
+.about button{
+      background-color: #1abc9c;
+      color: white;
+      border: white 1px solid;
+      border-radius: 5px;
+      width: 150px;
+      height: 45px;
+      margin-top: 15px;
+}      
+      
 /* about end */
 
 /* contact start */
 
-.CONTACT{text-align: center;color: #2c3e50; h2{font-size: 30px; padding-bottom: 10px;} 
+.CONTACT{text-align: center;position: relative;
+         
+}
 
-         height: 89vh;
-         .star{img{width: 150px;
-                   height: 20px;
-                   margin-bottom: 10px;
-            }}
-        }
+.CONTACT h2{
+      padding: 0px;
+      margin-top: 30px;
+      color: #2c3e50;
+      font-size: 400;
+      font-weight: bolder;
+      margin-bottom: 10px;
+}
 
-.CONTACT input{margin-top: 20px;
-               border-top: none;
-               border-right: none;
-               border-left: none;
-               width: 550px;
-               height: 70px;
-               
- }
- form input{opacity: 40%; outline: none;}
- textarea {opacity: 40%; outline: none;}
+.CONTACT .star img{
+      width: 150px; 
+      margin-bottom: 20px;
+      height: 20px;
 
-.CONTACT textarea{margin-top: 10px;
-                  border-left: none;
-                  border-right: none;
-                  border-top: none;
-                  width: 550px;
-                  height: 70px;
-                  margin-bottom: 10px;
-                  
-                 }
+}
 
-button{color: white;
-       background-color: #1abc9c;
-       border: #1abc9c;
-       width: 65px;
-       height: 45px;
-       border-radius: 5px;
-       
-      }
-button:hover{color: #1a252f;}
-
-.CONTACT {.but{text-align: left;margin-left: 395px;margin-top: 20px;}}
+.CONTACT form input{
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid #00000017;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      padding: 30px ;
+      width: 50%;
+      outline: none;
+      opacity: 80%;
+      text-align: left;
+      padding-left: 0px;
+}
 
 
-/* about end */
+.CONTACT form textarea{
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom:2px solid #00000017;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      padding: 30px;
+      padding-left: 0px;
+      width: 50%;
+      outline: none;
+      opacity: 80%;;
+      height: 150px;
+      margin-bottom: 20px;
+}
+
+.CONTACT form button{
+      background-color: #1abc9c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      width: 80px;
+      height: 45px;
+      margin-bottom: 30px;
+      /* margin-right: 550px; */
+}
+
+.CONTACT form .container{
+      width: 57%;
+      text-align: center;
+}
+
+/* contact end */
 
 /* footer start */
 footer{background-color: #2c3e50;
@@ -154,7 +189,8 @@ footer{background-color: #2c3e50;
        height: 180px;
        column-count: 3;
        color: white;
-       .flex{display: flex; flex-wrap: nowrap;justify-content: center; align-content: center;}
+       font-family: Arial, Helvetica, sans-serif;
+       .flex{display: flex; flex-wrap: nowrap;justify-content: center; align-items: center;}
        .flex > div{width: 35px; height: 35px; border: solid 2px white; border-radius: 100%;margin: 2px; }
        img{width: 30px; height: 30px;padding: 5px;}
        text-align: center;
@@ -164,10 +200,11 @@ footer{background-color: #2c3e50;
        #sence{margin-bottom: 20px;padding-top: 30px;}
       }
 
+footer .en em{color: #1abc9c;}
  /* footer end */
 
  /* copyright start */
- #copy{background-color: #1a252f; color: white; height: 50px; text-align: center; padding-top: 18px;
+ #copy{background-color: #1a252f; color: white; height: 50px; text-align: center; padding-top: 18px;font-family: Arial, Helvetica, sans-serif;
        }
 /* copyright end */
 
